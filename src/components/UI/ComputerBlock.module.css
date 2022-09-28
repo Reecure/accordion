@@ -1,0 +1,26 @@
+.imagesPosition {
+  display: block;
+  width: 450px;
+  overflow: hidden;
+}
+
+.squaresImage {
+  position: relative;
+  top: -640px;
+  left: -590px;
+}
+
+.computerImage {
+  position: relative;
+  max-width: 100%;
+  top: 60px;
+  left: -80px;
+  z-index: 1;
+}
+
+.boxImage {
+  position: relative;
+  top: 190px;
+  left: -120px;
+  z-index: 2;
+}
