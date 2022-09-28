@@ -1,6 +1,5 @@
 import background from '../media/bg-pattern-desktop.svg';
 import computer from '../media/illustration-woman-online-desktop.svg';
-import box from '../media/illustration-box-desktop.svg';
 import styles from './ComputerBlock.module.css';
 
 function ComputerBlock() {

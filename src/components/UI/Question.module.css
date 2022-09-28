@@ -1,0 +1,26 @@
+.questionBlock {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px gray solid;
+  padding: 10px;
+}
+
+.questionBlock {
+  margin: 20px;
+}
+
+.answerBlock {
+  display: none;
+}
+
+.questionBlock button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: unset;
+  background-image: url('../media/icon-arrow-down.svg');
+  background-repeat: no-repeat;
+}

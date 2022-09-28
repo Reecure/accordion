@@ -1,12 +1,12 @@
 import styles from './MainFAQ.module.css';
 import ComputerBlock from './UI/ComputerBlock';
+import TextContent from './UI/TextContent';
 
 function MainFAQ() {
   return (
     <div className={styles.mainBlock}>
-      <div className={styles.backgroungSquares}>
-        <ComputerBlock />
-      </div>
+      <ComputerBlock />
+      <TextContent />
     </div>
   );
 }
